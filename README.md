@@ -27,3 +27,10 @@ A simple, stylish web-based counter app built with **HTML**, **CSS**, and **Java
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/pink-counter-app.git
+
+---
+
+## 👩‍💻 Author
+
+**Poonam Khiyani**  
+💌 *Happy Coding! Feel free to explore, customize, and learn from this project.*
