@@ -1,6 +1,6 @@
-# 💖 Pink-Themed Counter App
+# 💖 Pink-Themed Counter
 
-A simple, stylish web-based counter app built with **HTML**, **CSS**, and **JavaScript** — complete with smooth animations and a responsive pink theme. Perfect for practicing DOM manipulation or showcasing beautiful UI design.
+A simple, stylish web-based counter program built with **HTML**, **CSS**, and **JavaScript** — complete with smooth animations and a responsive pink theme. Perfect for practicing DOM manipulation or showcasing beautiful UI design.
 
 ---
 
