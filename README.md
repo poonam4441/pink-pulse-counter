@@ -18,7 +18,8 @@ A simple, stylish web-based counter app built with **HTML**, **CSS**, and **Java
 ## 📸 Preview
 
 ![Pink Counter App Screenshot](screenshot.png)  
-<sub>*(Replace this with your actual screenshot named `screenshot.png`)*</sub>
+<sub>*( `<img width="1759" height="849" alt="Screenshot (116)" src="https://github.com/user-attachments/assets/b1c50302-8ec3-423d-b629-24c3b4a9addc" />
+`)*</sub>
 
 ---
 
