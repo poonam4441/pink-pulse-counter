@@ -1,0 +1,84 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4, #ffdde1);
+  /* soft pink gradient */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Big counter */
+#counterlabel {
+  font-size: 7rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #fff0f5;
+  text-shadow: 1.5px 1.5px 8px rgba(255, 105, 180, 0.7);
+}
+
+/* Container for Increase & Decrease side-by-side */
+#btncontainer {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  max-width: 300px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* Reset button container (full width, centered) */
+#resetcontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Buttons */
+.Buttons {
+  flex: 1 1 140px;
+  padding: 15px 25px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  background: #ff69b4;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(255, 105, 180, 0.6);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  user-select: none;
+  min-width: 140px;
+}
+
+.Buttons:hover {
+  background-color: #ff85c1;
+  transform: translateY(-3px);
+}
+
+.Buttons:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 8px rgba(255, 105, 180, 0.8);
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  #counterlabel {
+    font-size: 5rem;
+  }
+  .Buttons {
+    font-size: 1.1rem;
+    padding: 12px 18px;
+  }
+}
